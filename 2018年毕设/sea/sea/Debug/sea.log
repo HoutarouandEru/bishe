@@ -1,0 +1,70 @@
+﻿生成启动时间为 2018/6/9 15:03:15。
+     1>项目“C:\Users\root\Desktop\code\sea-all\sea\sea\sea.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\软件\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt big.cpp crt.cpp ecn.cpp poly.cpp polymod.cpp polyxy.cpp sea.cpp zzn.cpp
+         zzn.cpp
+         sea.cpp
+         polyxy.cpp
+     1>c:\users\root\desktop\code\sea-all\sea\sea\polyxy.cpp(450): warning C4101: “y”: 未引用的局部变量
+     1>c:\users\root\desktop\code\sea-all\sea\sea\polyxy.cpp(494): warning C4101: “x”: 未引用的局部变量
+     1>c:\users\root\desktop\code\sea-all\sea\sea\polyxy.cpp(539): warning C4101: “deg”: 未引用的局部变量
+     1>c:\users\root\desktop\code\sea-all\sea\sea\polyxy.cpp(539): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\root\desktop\code\sea-all\sea\sea\polyxy.cpp(539): warning C4101: “degb”: 未引用的局部变量
+     1>c:\users\root\desktop\code\sea-all\sea\sea\polyxy.cpp(539): warning C4101: “dega”: 未引用的局部变量
+     1>c:\users\root\desktop\code\sea-all\sea\sea\polyxy.cpp(539): warning C4101: “d”: 未引用的局部变量
+         polymod.cpp
+         poly.cpp
+     1>c:\users\root\desktop\code\sea-all\sea\sea\poly.cpp(917): warning C4101: “ptr”: 未引用的局部变量
+         ecn.cpp
+         crt.cpp
+         big.cpp
+         正在生成代码...
+       Link:
+         E:\软件\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\root\Desktop\code\sea-all\sea\Debug\sea.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\root\Desktop\code\sea-all\sea\Debug\sea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\root\Desktop\code\sea-all\sea\Debug\sea.lib" /MACHINE:X86 Debug\big.obj
+         Debug\crt.obj
+         Debug\ecn.obj
+         Debug\poly.obj
+         Debug\polymod.obj
+         Debug\polyxy.obj
+         Debug\sea.obj
+         Debug\zzn.obj
+         LINK : 没有找到 C:\Users\root\Desktop\code\sea-all\sea\Debug\sea.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>miracl.lib(mralloc.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mralloc.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrarth0.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrarth0.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrarth1.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrarth1.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrarth2.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrarth2.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrarth3.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrarth3.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrbits.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrbits.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrbuild.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrbuild.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrcore.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrcore.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrcrt.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrcrt.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrcurve.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrcurve.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrec2m.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrec2m.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrfast.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrfast.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrflash.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrflash.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrgcd.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrgcd.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrgf2m.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrgf2m.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrio1.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrio1.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrio2.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrio2.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrjack.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrjack.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrlucas.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrlucas.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrmonty.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrmonty.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrmuldv.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrmuldv.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrpower.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrpower.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrprime.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrprime.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrrand.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrrand.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrround.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrround.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrscrt.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrscrt.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrshs256.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrshs256.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrsmall.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrsmall.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrsroot.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrsroot.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrstrong.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrstrong.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrxgcd.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrxgcd.obj)”或在“C:\Users\root\Desktop\code\sea-all\sea\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         sea.vcxproj -> C:\Users\root\Desktop\code\sea-all\sea\Debug\sea.exe
+       BscMake:
+         E:\软件\vs2013\VC\bin\bscmake.exe /nologo /o"C:\Users\root\Desktop\code\sea-all\sea\Debug\sea.bsc" /n Debug\big.sbr Debug\crt.sbr Debug\ecn.sbr Debug\poly.sbr Debug\polymod.sbr Debug\polyxy.sbr Debug\sea.sbr Debug\zzn.sbr
+     1>已完成生成项目“C:\Users\root\Desktop\code\sea-all\sea\sea\sea.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.92

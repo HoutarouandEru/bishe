@@ -1,0 +1,48 @@
+﻿生成启动时间为 2018/4/22 22:33:04。
+     1>项目“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\mueller\mueller.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\软件\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt big.cpp mueller.cpp ps_big.cpp
+         ps_big.cpp
+         mueller.cpp
+     1>c:\users\访客账户\desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\mueller\mueller.cpp(25): warning C4101: “i”: 未引用的局部变量
+         big.cpp
+         正在生成代码...
+       Link:
+         E:\软件\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\mueller.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\mueller.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\mueller.lib" /MACHINE:X86 Debug\big.obj
+         Debug\mueller.obj
+         Debug\ps_big.obj
+     1>miracl.lib(mralloc.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mralloc.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrarth0.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrarth0.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrarth1.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrarth1.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrarth2.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrarth2.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrarth3.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrarth3.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrbits.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrbits.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrbuild.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrbuild.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrcore.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrcore.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrec2m.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrec2m.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrfast.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrfast.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrflash.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrflash.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrgcd.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrgcd.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrgf2m.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrgf2m.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrio1.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrio1.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrio2.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrio2.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrjack.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrjack.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrlucas.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrlucas.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrmonty.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrmonty.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrmuldv.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrmuldv.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrpower.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrpower.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrprime.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrprime.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrrand.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrrand.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrround.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrround.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrscrt.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrscrt.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrshs256.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrshs256.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrsmall.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrsmall.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrsroot.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrsroot.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrstrong.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrstrong.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrxgcd.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“miracl.lib(mrxgcd.obj)”或在“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         mueller.vcxproj -> C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\Debug\mueller.exe
+     1>已完成生成项目“C:\Users\访客账户\Desktop\赵一的毕设资料\椭圆曲线生成算法的研究与实践\资料\万老师的资料\code\sea-all\1-mueller\mueller\mueller.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.63
